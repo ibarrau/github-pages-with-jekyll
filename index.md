@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Welcome to my GithubPage project"
+nav_order: 1
 ---
 
 I'm glad you are here. I plan to show my develop in the github lab learning path ...
