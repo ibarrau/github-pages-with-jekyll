@@ -1,6 +1,8 @@
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+color_scheme: pidark
+nav_sort: case_sensitive
 title: GitHub Lab Project
 author: Ice Climber
 email: your-email@domain.com
