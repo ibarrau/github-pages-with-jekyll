@@ -1,7 +1,8 @@
 ---
 title: Main doc to try here
 date: 2022-07-28
-permalink: /docs/Article1/
+layout: default
+nav_order: 1
 ---
 
 # H1
