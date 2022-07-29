@@ -82,9 +82,19 @@ layout: table_wrappers
 		<button text="waaaaat" />
       {% endif %}
       {% include header_custom.html %}
-	  <a>Preview dark color scheme</a>
-	  Preview dark color scheme
-	  <script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'pidark') { jtd.setTheme('piwhite'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('pidark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
+	  <script> 
+	  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
+	  jtd.addEvent(toggleDarkMode, 'click', function(){ 
+		if (jtd.getTheme() === 'pidark') { 
+			jtd.setTheme('piwhite'); 
+			toggleDarkMode.textContent = 'Tema Oscuro'; 
+		} 
+		else { 
+			jtd.setTheme('pidark'); toggleDarkMode.textContent = 'Tema Claro'; 
+		} 
+		}); 
+	  </script>
+	  <a class=".js-toggle-dark-mode">Tema Claro</a>
       {% if site.aux_links %}
         <nav aria-label="Auxiliary" class="aux-nav">
           <ul class="aux-nav-list">
