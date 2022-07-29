@@ -82,6 +82,7 @@ layout: table_wrappers
 		<button text="waaaaat" />
       {% endif %}
       {% include header_custom.html %}
+	  <a class="js-toggle-dark-mode">Tema Oscuro</a>
 	  <script> 
 	  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
 	  jtd.addEvent(toggleDarkMode, 'click', function(){ 
@@ -94,7 +95,6 @@ layout: table_wrappers
 		} 
 		}); 
 	  </script>
-	  <a class=".js-toggle-dark-mode">Tema Oscuro</a>
       {% if site.aux_links %}
         <nav aria-label="Auxiliary" class="aux-nav">
           <ul class="aux-nav-list">
