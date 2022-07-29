@@ -7,6 +7,7 @@ title: My first Docs
 author: Ice Climber
 email: docs@ladataweb.com
 logo: "/assets/images/PiBi-rectangle.png"
+favicon: "/assets/images/PiBi-rectangle.png"
 description: > # this means to ignore newlines until "baseurl:"
   This is the description of the Github Lab project for Github Page :)
   Stay tuned to know more about this Lab.
