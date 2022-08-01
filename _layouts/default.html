@@ -85,12 +85,12 @@ layout: table_wrappers
 	  <script> 
 	  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
 	  jtd.addEvent(toggleDarkMode, 'click', function(){ 
-		if (jtd.getTheme() === 'pidark') { 
-			jtd.setTheme('piwhite'); 
+		if (jtd.getTheme() === 'dark') { 
+			jtd.setTheme('light'); 
 			toggleDarkMode.textContent = 'Tema Oscuro'; 
 		} 
 		else { 
-			jtd.setTheme('pidark'); toggleDarkMode.textContent = 'Tema Claro'; 
+			jtd.setTheme('dark'); toggleDarkMode.textContent = 'Tema Claro'; 
 		} 
 		}); 
 	  </script>
