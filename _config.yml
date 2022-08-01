@@ -1,7 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-color_scheme: piwhite
+color_scheme: white
 nav_sort: case_sensitive
 title: My first Docs
 author: Ice Climber
